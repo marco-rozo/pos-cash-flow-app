@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF1e1e1e</color>
+    <color name="white">#FFFFFFFF</color>
+    <!-- Colors = https://www.color-hex.com/color-palette/30448 -->
+    <color name="success">#FF6cc070</color>
+    <color name="danger">#FFff6633 </color>
+</resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="types">
+        <item>Crédito</item>
+        <item>Débito</item>
+    </string-array>
+
+    <string-array name="details_credit">
+        <item>Salário</item>
+        <item>Extras</item>
+    </string-array>
+
+    <string-array name="details_debit">
+        <item>Alimentação</item>
+        <item>Transporte</item>
+        <item>Saúde</item>
+        <item>Moradia</item>
+    </string-array>
+</resources>
