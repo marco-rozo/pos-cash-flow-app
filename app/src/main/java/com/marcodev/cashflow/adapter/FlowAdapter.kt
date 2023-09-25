@@ -46,7 +46,6 @@ class FlowAdapter(val context: Context, val cursor: Cursor) : BaseAdapter() {
         val tvDetailItem = itemList.findViewById<TextView>(R.id.tvDetailItem)
         val tvValueItem = itemList.findViewById<TextView>(R.id.tvValueItem)
         val tvCashSimbol = itemList.findViewById<TextView>(R.id.tvCashSimbol)
-        val btDelete = itemList.findViewById<ImageButton>(R.id.btDeleteElement)
 
         cursor.moveToPosition(id)
 
@@ -56,11 +55,6 @@ class FlowAdapter(val context: Context, val cursor: Cursor) : BaseAdapter() {
 
         tvValueItem.text =
             NumberFormatUtils.formatDoubleToCurrency(cursor.getDouble(Flow.INDEX_KEY_VALUE))
-
-        btDelete.setOnClickListener {
-
-
-        }
 
         if (tvTitleItem.text == "Crédito") {
             itemList.setBackgroundColor(context.resources.getColor(R.color.success))

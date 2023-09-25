@@ -27,6 +27,7 @@
         android:layout_marginTop="8dp"
         android:text="Nome"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="24sp"
         app:layout_constraintStart_toEndOf="@id/tvCashSimbol"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -38,28 +39,14 @@
         app:layout_constraintStart_toStartOf="@id/tvTitleItem"
         app:layout_constraintTop_toBottomOf="@id/tvTitleItem" />
 
-    <ImageButton
-        android:id="@+id/btDeleteElement"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="16dp"
-        android:background="@null"
-        android:onClick="btDeleteOnClick"
-        android:src="@android:drawable/ic_menu_delete"
-        app:layout_constraintBottom_toBottomOf="@+id/tvCashSimbol"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/tvCashSimbol"
-        app:srcCompat="@android:drawable/ic_menu_delete"
-        app:tint="@color/white" />
-
     <TextView
         android:id="@+id/tvValueItem"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
         android:text="TextView"
-        app:layout_constraintBottom_toBottomOf="@+id/btDeleteElement"
-        app:layout_constraintEnd_toStartOf="@+id/btDeleteElement"
-        app:layout_constraintStart_toEndOf="@+id/tvDetailItem"
-        app:layout_constraintTop_toTopOf="@+id/btDeleteElement" />
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/tvTitleItem" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
